@@ -1,0 +1,50 @@
+body {
+    background-image: url("books.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #562c2c;
+    display: flex;
+    justify-content: end;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: beige;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #bc4749;
+}
+
+#save-btn {
+    background: #6a994e;
+}
+
+.container{
+    margin: 40px 0px 30px 30px;
+    border: 6px solid #562c2c;
+    max-width: 400px;
+    
+}
